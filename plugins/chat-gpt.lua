@@ -4,7 +4,7 @@ return {
     event = "VeryLazy",
     config = function()
       require("chatgpt").setup {
-        // Load Open AI access token from 1Password
+        -- Load Open AI access token from 1Password
         api_key_cmd = "op read op://Personal/open_ai/key --no-newline",
       }
     end,
