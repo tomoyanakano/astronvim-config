@@ -2,12 +2,7 @@ return {
   {
     "jackMort/ChatGPT.nvim",
     event = "VeryLazy",
-    config = function()
-      require("chatgpt").setup {
-        -- Load Open AI access token from 1Password
-        api_key_cmd = "op read op://Personal/open_ai/key --no-newline",
-      }
-    end,
+    config = function() require("chatgpt").setup {} end,
     dependencies = {
       "MunifTanjim/nui.nvim",
       "nvim-lua/plenary.nvim",
