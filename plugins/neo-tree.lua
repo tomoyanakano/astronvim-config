@@ -5,6 +5,9 @@ return {
       filtered_items = {
         visible = true,
       },
-    }
-  }
+    },
+    nesting_rules = {
+      ["dart"] = { "g.dart", "freezed.dart" },
+    },
+  },
 }
