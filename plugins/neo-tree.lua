@@ -7,7 +7,7 @@ return {
       },
     },
     nesting_rules = {
-      ["dart"] = { "g.dart", "freezed.dart" },
+      ["dart"] = { "g.dart", "freezed.dart", "mocks.dart" },
     },
   },
 }

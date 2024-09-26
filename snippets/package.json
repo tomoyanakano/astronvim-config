@@ -1,0 +1,20 @@
+{
+  "categories": ["Snippets"],
+  "name": "my-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": [
+          "dart"
+        ],
+        "path": "awesome-flutter-snippets.json"
+      },
+      {
+        "language": [
+          "dart"
+        ],
+        "path": "flutter-riverpod-snippets.json"
+      }
+    ]
+  }
+}
